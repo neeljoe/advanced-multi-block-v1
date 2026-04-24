@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "runpartner/event-subtitle",
+  "version": "0.1.0",
+  "title": "Event Subtitle",
+  "category": "widgets",
+  "icon": "editor-quote",
+  "description": "Displays the event subtitle/tagline from event meta.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "advanced-multi-block",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}
