@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "runpartner/event-location",
+	"version": "0.1.0",
+	"title": "Event Location",
+	"category": "widgets",
+	"icon": "location-alt",
+	"description": "Displays the event location from event meta.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "advanced-multi-block",
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php"
+}

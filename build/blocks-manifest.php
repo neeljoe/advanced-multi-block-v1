@@ -42,6 +42,82 @@ return array(
 		'editorScript' => 'file:./index.js',
 		'render' => 'file:./render.php'
 	),
+	'event-distances' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'runpartner/event-distances',
+		'version' => '0.1.0',
+		'title' => 'Event Distances',
+		'category' => 'widgets',
+		'icon' => ' performer',
+		'description' => 'Displays the event distance types as pills from event meta.',
+		'example' => array(
+			
+		),
+		'supports' => array(
+			'html' => false
+		),
+		'textdomain' => 'advanced-multi-block',
+		'editorScript' => 'file:./index.js',
+		'render' => 'file:./render.php'
+	),
+	'event-edition' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'runpartner/event-edition',
+		'version' => '0.1.0',
+		'title' => 'Event Edition',
+		'category' => 'widgets',
+		'icon' => 'calendar',
+		'description' => 'Displays the event edition/first year from event meta.',
+		'example' => array(
+			
+		),
+		'supports' => array(
+			'html' => false
+		),
+		'textdomain' => 'advanced-multi-block',
+		'editorScript' => 'file:./index.js',
+		'render' => 'file:./render.php'
+	),
+	'event-location' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'runpartner/event-location',
+		'version' => '0.1.0',
+		'title' => 'Event Location',
+		'category' => 'widgets',
+		'icon' => 'location-alt',
+		'description' => 'Displays the event location from event meta.',
+		'example' => array(
+			
+		),
+		'supports' => array(
+			'html' => false
+		),
+		'textdomain' => 'advanced-multi-block',
+		'editorScript' => 'file:./index.js',
+		'render' => 'file:./render.php'
+	),
+	'event-register' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'runpartner/event-register',
+		'version' => '0.1.0',
+		'title' => 'Event Register',
+		'category' => 'widgets',
+		'icon' => 'external',
+		'description' => 'Displays the event registration link from event meta.',
+		'example' => array(
+			
+		),
+		'supports' => array(
+			'html' => false
+		),
+		'textdomain' => 'advanced-multi-block',
+		'editorScript' => 'file:./index.js',
+		'render' => 'file:./render.php'
+	),
 	'event-subtitle' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
@@ -51,6 +127,25 @@ return array(
 		'category' => 'widgets',
 		'icon' => 'editor-quote',
 		'description' => 'Displays the event subtitle/tagline from event meta.',
+		'example' => array(
+			
+		),
+		'supports' => array(
+			'html' => false
+		),
+		'textdomain' => 'advanced-multi-block',
+		'editorScript' => 'file:./index.js',
+		'render' => 'file:./render.php'
+	),
+	'event-website' => array(
+		'$schema' => 'https://schemas.wp.org/trunk/block.json',
+		'apiVersion' => 3,
+		'name' => 'runpartner/event-website',
+		'version' => '0.1.0',
+		'title' => 'Event Website',
+		'category' => 'widgets',
+		'icon' => 'admin-site',
+		'description' => 'Displays the event website link from event meta.',
 		'example' => array(
 			
 		),

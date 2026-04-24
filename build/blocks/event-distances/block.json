@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "runpartner/event-distances",
+  "version": "0.1.0",
+  "title": "Event Distances",
+  "category": "widgets",
+  "icon": " performer",
+  "description": "Displays the event distance types as pills from event meta.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "advanced-multi-block",
+  "editorScript": "file:./index.js",
+  "render": "file:./render.php"
+}
